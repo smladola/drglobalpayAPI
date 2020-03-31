@@ -1,0 +1,34 @@
+footer{
+	font-size: 10px;
+    letter-spacing: .3px;
+    padding: 15px 25px;
+    background-color: #fafbfc;
+    color: #637388;
+    border-top: 1px solid rgba(72, 94, 144, 0.16);
+    text-transform: uppercase;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul{
+	padding: 0px;
+	margin: 0px;
+}
+footer ul li{
+	float: left;
+    list-style: none;
+    height: 60px;
+    position: relative;
+    width: 80px;
+}
+footer ul li img{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.df-example{
+	padding: 10px 0px !important;
+}
